@@ -84,6 +84,15 @@ header {
   font-size: var(--span-font-size);
 }
 
+.sticky {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999999;
+  /* border-bottom:  2px solid var(--main-bg); */
+}
 .logo span {
   color: var(--bg-color);
   font-size: var(--span-font-size);

@@ -1,4 +1,12 @@
 
+
+//sticky navbar
+
+window.addEventListener('scroll', function() {
+    let nav = document.querySelector('header');
+    nav.classList.toggle('sticky', window.scrollY > 50);
+  });
+
 //responsive menu
 $(document).ready(function () {
     $(".humburger i").click(function () {
